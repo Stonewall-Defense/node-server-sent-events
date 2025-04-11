@@ -1,8 +1,5 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
 # Security
-npm audit --audit-level=moderate
+npm audit
 
 # Quality
 npm run lint
